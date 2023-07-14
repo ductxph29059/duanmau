@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="10">
+
+        <TextView
+            android:id="@+id/tvMaPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:text="MaPM"/>
+        <TextView
+            android:id="@+id/tvTenTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="TenTV"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvTenSach"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:text="TenSach"/>
+            <TextView
+                android:id="@+id/tvTraSach"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chưa chả sách"
+                android:textSize="19dp"
+                android:textColor="@color/purple_700"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvTienThue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="19dp"
+                android:text="TienThue"/>
+            <TextView
+                android:id="@+id/tvNgayPM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="19dp"
+                android:text="Ngay"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_DeletePM"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_gravity="center"/>
+</LinearLayout>
+

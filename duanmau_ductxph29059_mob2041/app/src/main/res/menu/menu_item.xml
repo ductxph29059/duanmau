@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Quản lý phiếu mượn"/>
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="Quản lý Loại sách"/>
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_baseline_collections_bookmark_24"
+            android:title="Quản lý sách"/>
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="Quản lý thành viên"/>
+
+
+        <item android:title="Thống kê">
+            <menu >
+                <item
+                    android:id="@+id/sub_Top"
+                    android:icon="@drawable/top_10i_con"
+                    android:title="10 Sách mượn nhiều nhất"/>
+                <item android:id="@+id/sub_DoanhThu"
+                    android:icon="@drawable/ic_baseline_attach_money_24"
+                    android:title="Doanh thu"/>
+            </menu>
+        </item>
+
+        <item android:title="Người dùng">
+            <menu >
+                <item
+                    android:id="@+id/sub_AddUser"
+                    android:icon="@drawable/ic_baseline_add_24"
+                    android:visible="false"
+                    android:title="Thêm người dùng"/>
+                <item
+                    android:id="@+id/sub_Pass"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"
+                    android:title="Đổi mật khẩu"/>
+                <item
+                    android:id="@+id/sub_Logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Đăng xuất"/>
+            </menu>
+        </item>
+    </group>
+</menu>
